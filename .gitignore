@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Django
+*.log
+db.sqlite3
+media/
+static/
+.env
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Migrations (optional, keep if you want to version them)
+# predictor/migrations/
+#   except for __init__.py
+!predictor/migrations/__init__.py
+
+# Vercel
+.vercel/
