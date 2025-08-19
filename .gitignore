@@ -30,6 +30,4 @@ Thumbs.db
 #   except for __init__.py
 !predictor/migrations/__init__.py
 
-# Vercel
-.vercel/
-.vercel
+
