@@ -1,5 +1,7 @@
 # Python
 *.pyc
+# Python
+*.pyc
 __pycache__/
 *.pyo
 *.pyd
@@ -29,5 +31,4 @@ Thumbs.db
 # predictor/migrations/
 #   except for __init__.py
 !predictor/migrations/__init__.py
-
 
