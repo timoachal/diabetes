@@ -3,7 +3,7 @@ services:
     name: diabetes-predictor
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn diabetes_predictor.wsgi"
+    startCommand: "gunicorn diabetes_predictor.wsgi:application"
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: diabetes_predictor.settings
